@@ -1,29 +1,33 @@
+.vc_carousel-slideline-inner {
+    display: none;
+}
+
 .carousel {
     height: 500px;
+    position: relative;
     margin: 0 auto;
     overflow: hidden;
-    width: 215px;
-    background: url("http://test.dimble.co/wp-content/uploads/2016/07/Iphone_rose.png") no-repeat center center; 
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    width: 200px;
+
+
+    .carousel-background {
+        position: absolute;
+        top: 0;
+        width: 200px;
+    }
 
     .carousel-list {
         list-style: none;
-        padding: 0;
-        margin: 53px 0px;
-        width: 1920px;
         overflow: hidden;
+        padding: 0;
+        margin: 47px 10px;
+        width: 1920px;
 
         .carousel-item {
             float:  left;
-            height: 400px;
             list-style: none;
             text-align: center;
-             width: 179px;
-            margin-left: -7px;
-
+            width: 185px;
 
             img {
                 width: 100%;
