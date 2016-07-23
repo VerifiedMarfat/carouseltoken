@@ -3,11 +3,11 @@
 }
 
 .carousel {
-    height: 500px;
+    height: 688px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    width: 200px;
+    width: 340px;
 
 
     .carousel-background {
@@ -20,14 +20,14 @@
         list-style: none;
         overflow: hidden;
         padding: 0;
-        margin: 47px 10px;
+        margin: 80px 20px;
         width: 1920px;
 
         .carousel-item {
             float:  left;
             list-style: none;
             text-align: center;
-            width: 185px;
+            width: 300px;
 
             img {
                 width: 100%;
